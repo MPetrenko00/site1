@@ -113,6 +113,13 @@ table, th, td  {
 
 /*CARDS*/
 
+.box{
+	max-width: 1140px;
+	padding: 50px 0;
+	margin: 0 auto;
+	position: relative;
+}
+
 .cards {
 	width: 500px;
 	margin: 0 auto;
@@ -136,24 +143,24 @@ table, th, td  {
 	font-size: 20px;
 	color: rgb(33, 33, 34);
 	display: none;
+
     text-align: center;
     max-width: 400px;
     margin: 0 auto;
-    gap:60px;
+    
 }
 
 .cards:hover .card-text {
 	display: block;
 }
 
-.card-text span {
+.card-text  {
 	color: rgb(14, 14, 13);
 }
 
-.box{
-	max-width: 1140px;
-	padding: 50px 0;
-	margin: 0 auto;
-	position: relative;
+.black{
+    color: #000;
+    text-align: center;
 }
+
 
